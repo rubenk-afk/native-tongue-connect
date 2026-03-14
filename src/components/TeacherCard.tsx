@@ -39,7 +39,7 @@ const TeacherCard = ({ teacher }: { teacher: Teacher }) => {
           <span className="text-xs text-muted-foreground block">PER HOUR</span>
         </div>
         <Link
-          to={`/teachers`}
+          to={`/teacher/${teacher.id}`}
           className="text-sm font-medium text-primary border border-primary px-4 py-1.5 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
         >
           View Profile
